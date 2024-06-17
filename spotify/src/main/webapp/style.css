@@ -1,0 +1,398 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 73px;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+    
+
+}
+#nav>article{
+    height: 100%;
+    width: 87.5%;
+    background-color: black;
+    display: flex;
+}
+#nav>article>.logo{
+    height: 100%;
+    width: 30%;
+    background-color: black;
+    display: flex;
+    align-items: center;  
+}
+#nav>article>.logo:hover{
+    cursor: pointer;
+}
+#nav>article>.menu{
+    height: 100%;
+    width: 70%;
+    background-color: rgb(7, 7, 7);
+    display: flex;
+    justify-content: right;
+}
+#nav>article>.logo>div{
+    height: 100%;
+    width: 150px;
+    
+    color: white;
+    display: flex;
+}
+#nav>article>.logo>svg{
+    width: 29%;
+    fill: white;
+    
+
+    
+}
+#nav>article>.menu>div{
+    height: 100%;
+    width: 80px;
+    /* border: 1px solid white; */
+    
+}
+#nav>article>.menu>div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 30px;
+    
+   
+}
+#nav>article>.menu>.premium>a:hover{
+     color: rgb(15, 221, 15);
+}
+#nav>article>.menu>.support>a:hover{
+    color: rgb(15, 221, 15);
+}
+#nav>article>.menu>.download>a:hover{
+    color: rgb(15, 221, 15);
+}
+#nav>article>.menu>.signup>a:hover{
+    color: rgb(15, 221, 15);
+}
+#nav>article>.menu>.login>a:hover{
+    color: rgb(15, 221, 15);
+}
+#nav>article>.menu>.line{
+    color: white;
+    margin-left: 60px;
+    font-weight: lighter;
+    font-size: large;
+}
+
+#nav>article>.menu>div>a:link, a:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+/* .banner{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/main_banner.JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+.banner>a>button{
+    height: 45px;
+    width: 195px;
+    background-color: white;
+    margin-top: 319px;
+    margin-left: 485px;
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 95%;
+    color: black;
+    border-radius: 25px;
+} 
+/* ......................nav ends............... */
+
+#homepage1{
+    height: 100vh;
+    width: 100%;
+    background:url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    background-position: center -138px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#homepage1>article{
+    height: 90%;
+    width: 90%;
+    /* background-color: aqua; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#homepage1>article>.mobile{
+    height: 100%;
+    width: 40%;
+    /* background-color: rgb(63, 58, 63); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#homepage1>article>.mobile>aside{
+    height: 97%;
+    width: 60%;
+    background-color: white;
+    border-radius: 40px;
+    margin-top: 145px;
+    
+
+}
+#homepage1>article>.mobile>aside>.image{
+    height: 84%;
+    width: 95%;
+    /* background-color: rgb(119, 0, 255); */
+    margin-top: 22px;
+    margin-left: 5.7px;
+    background-image: url(./assets/mobile_banner.jfif);
+    background-size: cover
+}
+#homepage1>article>.mobile>aside>.dot{
+    height: 5px;
+    width: 45px;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 107px;
+    border-radius: 30px;
+}
+#homepage1>article>.text{
+    height: 100%;
+    width: 60%;  
+    padding-top: 140px
+}
+#homepage1>article>.text>h1{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+#homepage1>article>.text>button{
+    height: 43px;
+    width: 180px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+#homepage1>article>.text>button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    
+}
+/* .................Homepage1 ends............ */
+
+
+#homepage2{
+  height: 88vh;
+  width: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  
+  
+
+
+}
+#homepage2>article{
+    height: 100%;
+    width: 98%;
+    /* background-color: palegreen; */
+   
+     
+}
+#homepage2>article>header>h2{
+    font-size: 38px;
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 1000;
+}
+#homepage2>article>.logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px;
+}
+#homepage2>article>.logo>div{
+    height: 230px;
+    width: 220px;
+    /* background-color: white; */
+    /* border: 1px solid;  */
+    text-align: center; 
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#homepage2>article>.logo>div>h1{
+    font-weight: bold;
+    font-size: larger;
+}
+#homepage2>article>.logo>div>h4{
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 20px;
+}
+
+
+
+/* ......................>>>>>>>>............. */
+
+#homepage3{
+    height: 75vh;
+    width: 100%;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#homepage3>article{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva;
+    
+}
+
+/* ......................>>>>>>>>>>>>>>>>>................. */
+
+#homepage4{
+    height: 90vh;
+    width: 100%;
+    
+    
+}
+#homepage4>article{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#homepage4>article>h1{
+    text-align: center;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+/* ................................................ */
+
+#homepage5{
+    height: 75vh;
+    width: 100%;
+    
+}
+#homepage5>article{
+    height: 100%;
+    width: 100%;
+    background: url(https://www.scdn.co/i/free/lets-play.svg) center center / 100% no-repeat, linear-gradient(-155deg, rgb(108, 14, 224) 55%, rgb(240, 55, 166) 115%) rgb(108, 14, 224);
+    padding: 170px;
+}
+#homepage5>article>h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    color: white;
+}
+#homepage5>article>button{
+    height: 43px;
+    width: 180px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    margin-top: 30px;
+    margin-left: 380px;
+}
+#homepage5>article>button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+footer{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+}
+footer>article{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 70px;
+}
+footer>article>div{
+    height: 250px;
+    width: 220px;
+    /* border: 1px solid white; */
+    
+}
+footer>article>div>.about{
+    color: white;
+    list-style: none;
+    margin-left: 40px;
+    line-height: 40px;
+}
+
+footer>article>div>.communities{
+    color: white;
+    list-style: none;
+    margin-left: 40px;
+    line-height: 40px;
+    
+}
+footer>article>div>.useful{
+    color: white;
+    list-style: none;
+    margin-left: 40px;
+    line-height: 40px;
+}
+footer>article>div>.about>.aboutall{
+    color: rgb(184, 179, 179);
+    font-weight: 800;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer>article>div>.communities>.communitiesHead{
+    color: rgb(184, 179, 179);
+    font-weight: 800;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer>article>div>.useful>.usefullinks{
+    color: rgb(184, 179, 179);
+    font-weight: 800;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer>article>.social>ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer>article>.social>ul{
+    list-style: none;
+    color: white;
+    font-size: 40px;
+    
+}
+footer>article>.social>ul:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
